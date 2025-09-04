@@ -29,6 +29,16 @@ In quale punto dello schermo?
 
 --- 
 
+# Canvas e piano cartesiano
+
+Possiamo trattare la superficie di disegno di P5.Js come un piano cartesiano avente l'asse y orientato verso il basso:
+
+![h:300](img/cartesiano.png)
+
+Identifichiamo i punti di questo piano tramite le loro coordinate (x,y) 
+
+--- 
+
 # Il comando line
 
 Possiamo trovare l'elenco di tutti i comandi P5.js disponibili in [questa pagina](https://p5js.org/reference/)
@@ -41,7 +51,7 @@ Il comando
 
 "draws a straight line between two points"
 
-Accetta quattro parametri: le coordinate del punto di partenza e quelle del punto di arrivo.
+Accetta quattro parametri: le coordinate (x, y) del punto di partenza e quelle del punto di arrivo.
 
 --- 
 
