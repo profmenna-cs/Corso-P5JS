@@ -52,8 +52,6 @@ Crea una superficie di disegno di dimensione 400x400 pixel:
 
 >  createCanvas(400, 400);
 
-
-
 ---
 
 # Esecuzione
@@ -61,4 +59,7 @@ Crea una superficie di disegno di dimensione 400x400 pixel:
 Aggiungiamo un testo:
 
 > text('Hello, world!', 0, 0);
+
+Osserva: in che punto della superficie viene inserito il testo?
+
 
