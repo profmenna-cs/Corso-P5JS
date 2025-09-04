@@ -15,10 +15,14 @@ Massimizzate le possibilità di poter lavorare in un tipico (e datato) laborator
 
 ## Perchè P5JS?
 
-Per percorrere i primi passi nella programmazione in modo visuale e visivo.
+Utile per introdurre i concetti fondamentali della programmazione in modo visivo. Sicuramente più divertente ed attuale. 
 
 ## Credits
 
 Questo materiale prende notevole spunto dal corso di introduzione alla programmazione proposto dalla [https://www.khanacademy.org/computing/computer-programming/programming](Khan Academy).
 
-Ho notato una assoluta convergenza tra gli ideatori di questo corso e le idee da me sviluppate in anni di esperienza di didattica dell'informatica.
+## Marp
+
+Per visualizzare le slides in formato .md: VS Code + estensione 'Marp for VS Code'. Più informazioni [qui](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
+
+
