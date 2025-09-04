@@ -56,3 +56,13 @@ L'abbiamo resa una **variabile di stato**. Conserva il suo valore per tutta la v
 
 Pallone in caduta libera
 
+---
+
+# Sfida: stella cadente
+
+Il programma [star.js](star.js) mostra una stella nel cielo notturno.
+
+Trasformare la stella in stella cadente, provando a farle seguire una traiettoria:
+- verticale
+- obliqua
+
