@@ -36,10 +36,12 @@ Creiamo una nuova directory, in cui poi caricheremo i due file vuoti di partenza
 
 Preparazione.
 
-> function setup() {
->    Eseguita una volta sola:
->    inserire qui il codice per preparare l'area di disegno  
-> }
+```js
+function setup() {
+    // Eseguita una volta sola:
+    //inserire qui il codice per preparare l'area di disegno  
+}
+```
 
 ---
 
@@ -47,10 +49,12 @@ Preparazione.
 
 Esecuzione.
 
-> function draw() {
-> Eseguita continuamente:
-> inserire qui i comandi di disegno
-> }
+```js
+function draw() {
+    // Eseguita continuamente:
+    // inserire qui i comandi di disegno
+}
+```
 
 --- 
 
@@ -58,16 +62,28 @@ Esecuzione.
 
 Crea una superficie di disegno di dimensione 400x400 pixel:
 
->  createCanvas(400, 400);
+```js
+    createCanvas(400, 400);
+```
 
 ---
 
 # Esecuzione
 
-Aggiungiamo un testo:
+Aggiungiamo un testo, usando una **funzione** messa a disposizione dalla libreria P5.JS
 
-> text('Hello, world!', 0, 0);
+```
+    text('Hello, world!', 0, 0);
+```
 
 Osserva: in che punto della superficie viene inserito il testo?
 
+---
 
+# Ha funzionato?
+
+Visualizziamo con il nostro browser il file **index.html**
+
+Se visualizziamo il saluto "Hello, world!", allora il nostro primo programma P5.JS ha funzionato.
+
+*Provate a scrivere qualche testo (dignitoso) a piacere...*
