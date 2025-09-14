@@ -9,10 +9,12 @@ Fino a qui abbiamo utilizzato funzioni fornite dalla libreria P5.JS.
 
 Queste funzioni ci hanno consentito di disegnare e colorare figure:
 
-> ellipse(...)
-> line(...)
-> fill(...)
-> ..
+```js
+ellipse(...)
+line(...)
+fill(...)
+..
+```
 
 Ora impareremo a progettare noi stessi nuove funzioni.
 
@@ -24,8 +26,8 @@ Proviamo ora a disegnare una moneta:
 
 ![](img/coin.png)
 
-- usiamo la funzione [textSize()](https://p5js.org/reference/p5/textSize/) per ingrandire il carattere
-- usiamo invece [textAlign()](https://p5js.org/reference/p5/textAlign/) per allineare il numero al centro della moneta
+:bulb: usiamo la funzione [textSize()](https://p5js.org/reference/p5/textSize/) per ingrandire il carattere
+:bulb: usiamo invece [textAlign()](https://p5js.org/reference/p5/textAlign/) per allineare il numero al centro della moneta
 
 ---
 
@@ -51,12 +53,14 @@ Abbiamo esposto però un'esigenza: eseguire un blocco di codice tante volte, **e
 
 Possiamo risolvere **assengnando un nome** al blocco di codice che disegna una moneta, usando la parola chiave di JS **function**:
 
-> **function moneta**() 
-> {
->   fill(255, 242, 0);
->   ellipse(x_pos, y_pos, 40, 40);
->   ...
-> }
+```js
+function moneta() 
+{
+  fill(255, 242, 0);
+  ellipse(x_pos, y_pos, 40, 40);
+  ...
+}
+```
 
 ---
 
@@ -64,10 +68,12 @@ Possiamo risolvere **assengnando un nome** al blocco di codice che disegna una m
 
 Col termine **dichiarazione** indichiamo la creazione di una nuova funzione:
 
-> **function** **nome**()
-> {
->    <blocco di codice>
-> }
+```js
+function nome()
+{
+   <blocco di codice>
+}
+```
 
 ---
 
@@ -89,11 +95,13 @@ Stiamo disegnando tante monete, ma tutte nella stessa posizione
 
 Proviamo ora a impostare la posizione della moneta su coordinate casuali:
 
-> function moneta() {
-> let x = random(50, 350);
-> let y = random(50, 350);
-> ...
-> }
+```js
+function moneta() {
+  let x = random(50, 350);
+  let y = random(50, 350);
+  ...
+}
+```
 
 Ricarichiamo la pagina del browser e godiamoci la nostra pioggia di monete d'oro.
 
@@ -103,12 +111,14 @@ Ricarichiamo la pagina del browser e godiamoci la nostra pioggia di monete d'oro
 
 Il seguente codice scrive un nome nell'area di disegno:
 
-> let textX = random(0, 300);
-> let textY = random(0, 300);
-> let name = "Your Name";
-> fill(255, 0, 0);
-> textSize(30);
-> text("Hiiii, " + name, textX, textY);
+```js
+let textX = random(0, 300);
+let textY = random(0, 300);
+let name = "Your Name";
+fill(255, 0, 0);
+textSize(30);
+text("Hiiii, " + name, textX, textY);
+```
 
 Sfida: prova a dare un nome a questo codice, inserendolo in una funzione **saluta()**
 
@@ -196,3 +206,5 @@ Riempendo la funzione P5.JS [**mouseMoved()**](https://p5js.org/reference/p5/mou
 ---
 
 # Funzioni che calcolano
+
+TODO

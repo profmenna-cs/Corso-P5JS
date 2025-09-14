@@ -12,7 +12,9 @@ Possiamo usare comandi P5.JS chiamando **funzioni** messe a disposizione da ques
 
 Ad esempio:
 
-> text(<testo da stampare>, <x>, <y>)
+```js
+text(<testo da stampare>, <x>, <y>)
+```
 
 --- 
 
@@ -22,7 +24,9 @@ Ad ognuna di queste funzione possiamo passare dei parametri.
 
 Un parametro è un **valore** che consente di modificare, in modo logico e prevedibile, il comportamento di una funzione:
 
-> text('Ciao', 100, 200);
+```js
+text('Ciao', 100, 200);
+```
 
 Che testo verrà stampato, chiamando questa funzione?
 In quale punto dello schermo?
@@ -45,9 +49,11 @@ Possiamo trovare l'elenco di tutti i comandi P5.js disponibili in [questa pagina
 
 L'elenco è in inglese, come praticamente tutta la documentazione disponibile in ambito informatico. Studiate bene l'inglese.
 
-Il comando
+Il comando [line](https://p5js.org/reference/p5/line/):
 
-> [line(x1, y1, x2, y2)](https://p5js.org/reference/p5/line/)
+```js
+line(x1, y1, x2, y2);
+```
 
 "draws a straight line between two points"
 
@@ -69,7 +75,9 @@ Disegna una casa.
 
 Il comando
 
-> ellipse(x, y, w, [h])
+```js
+ellipse(x, y, w, [h])
+```
 
 "draws an ellipse".
 
@@ -93,9 +101,11 @@ Hints:
 
 # Rettangoli
 
-Proviamo ora, con il comando:
+Proviamo ora, con il comando [rect](https://p5js.org/reference/p5/rect/):
 
-> [rect(x1, y1, x2, y2)](https://p5js.org/reference/p5/rect/)
+```js
+rect(x1, y1, x2, y2);
+```
 
 a disegnare un bel quadrato al centro dello schermo.
 
@@ -103,10 +113,12 @@ a disegnare un bel quadrato al centro dello schermo.
 
 # Coloriamo il mondo
 
-P5JS ci mette a disposizione anche comandi per aggiungere colori ai nostri disegni: 
+P5JS ci mette a disposizione anche comandi per aggiungere colori ai nostri disegni. Ad esempio, il comando [fill](https://p5js.org/reference/p5/fill/):
 
-> [fill(r, g, b, [alpha])](https://p5js.org/reference/p5/fill/)
-> fill(valore)
+```js
+fill(r, g, b, [alpha])
+fill(valore)
+```
 
 Possiamo definire colori usando 
 - livelli di ROSSO (parametro r), VERDE (parametro g) e BLU (parametro b) compresi tra 0 (colore mancante) e 255 (colore pieno). Per scegliere i valori giusti usiamo il [Color Picker di W3Schools](https://www.w3schools.com/colors/colors_picker.asp)*

@@ -7,7 +7,6 @@ function setup() {
 
 function draw() {
   // Eseguito continuamente
-  text("Hello World!", 200, 200);
 }
 
 
