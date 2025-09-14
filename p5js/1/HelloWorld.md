@@ -3,6 +3,14 @@ marp: true
 theme: default
 ---
 
+# P5.JS
+
+Iniziamo qui il nostro percorso di esplorazione dei principi della programmazione utilizzando il linguaggio Javascript, ma servendoci anche della libreria [P5.js](p5js.org).
+
+*p5.js is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners, educators, and anyone else!*
+
+---
+
 # Hello World!
 
 Ogni corso di programmazione non può che iniziare con la celebre frase: "Hello World". Ciao Mondo!
