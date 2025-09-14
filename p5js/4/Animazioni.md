@@ -11,7 +11,9 @@ Ora siamo già esperti: due ellissi, due rettangoli, un po' di colore e via:
 
 Iniziamo così:
 
-> let x = 10;
+```js
+let x = 10;
+```
 
 Disegniamo le parti dell'auto a partire da questa variabile.
 
